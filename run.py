@@ -100,12 +100,12 @@ class TicTacToe:
 
                 game_over = self.has_player_won(player)
                 if game_over:
-                    print(f'Player {player} wins the game!')
+                    print(f'Player {player} is the winner!')
                     continue
 
                 game_over = self.is_board_filled()
                 if game_over:
-                    print('Match Draw!')
+                    print('Game Over!')
                     continue
 
                 player = self.swap_player_turn(player)
