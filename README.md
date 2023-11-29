@@ -2,6 +2,7 @@
 
 Tic-Tac-Toe is a python terminal game. Tic-Tac-Toe is a two-player game. Each alternately marks their space with an O or an X in a nine square grid found in the game.
 
+[Here is the live version of my project](https://tic-tactoe-4ba15b616646.herokuapp.com/)
 
 ## How to play
 
@@ -44,8 +45,15 @@ And whichever player manages to mark three Xs or Os diagonally, horizontally, or
 - A fix_spot variable that contains the players guess.
 - A has_player_won variable that contains the winner of the game.
 
-  ## Bugs
-  (-----------)
+## Testing
+- I have tested the code through a python validator and confirmed that there are no problems or errors.
+
+![Skärmavbild 2023-11-29 kl  09 47 59](https://github.com/matgus217/tic-tac-toe/assets/147818054/6e9c653d-f24a-4a63-9924-23058ec7ee69)
+
+
+
+   ## Bugs
+  There are no bugs in the game
 
   ## Deployment
 
