@@ -2,6 +2,7 @@
 
 Tic-Tac-Toe is a python terminal game. Tic-Tac-Toe is a two-player game. Each alternately marks their space with an O or an X in a nine square grid found in the game.
 
+[Here is the live version of my project](https://tic-tactoe-4ba15b616646.herokuapp.com/)
 
 ## How to play
 
