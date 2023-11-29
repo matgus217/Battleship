@@ -1,13 +1,8 @@
-#Tic-Tac-Toe Game
-
 import random
 
 
 class TicTacToe:
 
-#Functions
-    
-    
     def __init__(self):
         self.board = []
 
@@ -29,6 +24,7 @@ class TicTacToe:
         board_values = set()
 
         # Checking Rows
+
         for i in range(n):
             for j in range(n):
                 board_values.add(self.board[i][j])
@@ -39,7 +35,8 @@ class TicTacToe:
                 board_values.clear()
 
         # Checking Cols
-        for i in range(n):
+
+            for i in range(n):
             for j in range(n):
                 board_values.add(self.board[j][i])
 
@@ -49,6 +46,7 @@ class TicTacToe:
                 board_values.clear()
 
         # Checking Diagonals
+
         for i in range(n):
             board_values.add(self.board[i][i])
         if board_values == {player}:
@@ -64,9 +62,9 @@ class TicTacToe:
         else:
             return False
 
-    #Functions
+    # Functions
 
-    def is_board_filled(self):
+      def is_board_filled(self):
         for row in self.board:
             for item in row:
                 if item == '-':
@@ -103,6 +101,9 @@ class TicTacToe:
 
                 self.fix_spot(row - 1, col - 1, player)
 
+               
+               
+               
                #Game Over
                
                 game_over = self.has_player_won(player)
