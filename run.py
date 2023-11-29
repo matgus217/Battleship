@@ -1,7 +1,7 @@
 import random
 
 
-class TicTacToe:
+
 
     def __init__(self):
         self.board = []
@@ -14,12 +14,20 @@ class TicTacToe:
             self.board.append(row)
 
     def get_random_first_player(self):
+        """
+    Function that randomly select a player to begin the game
+        """
+
         return random.randint(0, 1)
 
     def fix_spot(self, row, col, player):
         self.board[row][col] = player
 
     def has_player_won(self, player):
+        """
+    Function that shows wich player has won the game
+    """
+
         n = len(self.board)
         board_values = set()
 
